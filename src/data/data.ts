@@ -1,4 +1,26 @@
 export default {
+    menu: [
+        {
+            name: 'home', 
+            title: 'Home',
+            route: '/'
+        },
+        {
+            name: 'resume', 
+            title: 'Resume',
+            route: '/resume'
+        },
+        {
+            name: 'blog', 
+            title: 'Blog',
+            route: '/blog'
+        },
+        {
+            name: 'hire', 
+            title: 'Hire Me / Request Project',
+            route: '/hire'
+        }
+    ],
     skills: [
         { name: 'Javascript', icon: 'language-javascript' },
         { name: 'Typescript', icon: 'language-typescript' },
